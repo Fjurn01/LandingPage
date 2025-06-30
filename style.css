@@ -1,8 +1,9 @@
+/* styles styles styles styles styles styles styles styles styles styles */
 * {
-    font: Roboto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.header, .footer{
+.header, .header-content, .footer{
     background-color: #1F2937;
 }
 
@@ -16,7 +17,7 @@
     color: #f9faf8;
     font-weight: 900;
 }
-.header > a , .header-left > p {
+.header-link > a , .header-left > p {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
@@ -45,3 +46,76 @@
         color: #1F2937;
     font-weight: 900;
 }
+
+/* styles styles styles styles styles styles styles styles styles*/
+
+/* flex flex flex flex flex flex flex flex flex flex flex flex flex */
+body {
+    display: flex;
+    flex-direction: column;
+}
+/* header header header header header  */
+.header-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding-bottom: 80px;
+}
+.header , .header-content {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.header-link > a{
+    gap: 15px;
+}
+
+.header-right > img {
+    width: 400px;
+    height: 250px;
+}
+
+.header-content {
+    display: flex;
+
+}
+.header-left > h1 {
+    align-self:flex-start;
+    flex-grow: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.header-left > p {
+    align-self: stretch;
+    padding-right: 20px;
+}
+.header-left > button {
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.header-right > img {
+    border: 2px #e5e7eb solid;
+    border-radius: 15px;
+}
+.header-flex , .header-content {
+     padding-bottom: 100px; /* covers My random information for some reason */
+}
+/* header header header header header  */
+
+/* midsection midsection midsection */
+
+
+
+/* midsection midsection midsection */
+
+/* flex flex flex flex flex flex flex flex flex flex flex flex flex */
