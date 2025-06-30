@@ -63,6 +63,7 @@ body {
 }
 
 .header {
+    padding-top:10px;
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
@@ -137,8 +138,8 @@ body {
 }
 
 .card > img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: #3882f6 solid 3px;
     border-radius: 15px;
     flex-grow: 0;
@@ -163,8 +164,72 @@ body {
 /* cards cards cards */
 
 /* .inspiring-quote */
+.inspiring-quote{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
 
+}
+    .inspiring-text {
+        padding-top: 80px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .quote-signature {
+        margin-top: 0px;
+        padding-top: 0px;
+        align-self: flex-end;
+        padding-bottom: 80px;
+    }
 /* .inspiring-quote */
+
+/* call call call call */
+.call {
+    display: flex;
+    align-items: center;
+    margin:80px;
+    border-radius: 15px;
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+}
+.call > div {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.call > div > p {
+    margin-top: 5px;
+}
+.call > .two {
+        display: flex;
+}
+.call > div >button {
+    border:#e5e7eb solid 2px;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    border-radius: 9px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    align-self: center;
+}
+.call > div > h5 {
+    padding-bottom: 0px ;
+    margin-bottom: 0px ;
+    font-size: 24px;
+    color: #f9faf8;
+}
+.call > .one > p , .call > div > button  {
+        color: #e5e7eb;
+        font-size: 18px;
+}
+.call > .one {
+    padding-bottom: 30px;
+}
+
+/* call call call call */
 
 /* midsection midsection midsection */
 
